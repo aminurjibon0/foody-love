@@ -1,0 +1,220 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /* global section start */
+    h1 {
+        font-size: 20px;
+        line-height: 1.125;
+    }
+
+    .common-header {
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    .common-header h2 {
+        font-size: 25.53px;
+        text-transform: uppercase;
+    }
+
+    /* global section end */
+    /* topbar start */
+    .topbar-contact ul {
+        text-align: center;
+    }
+
+    /* topbar end */
+    /*header start*/
+    .custom-navbar-brand img {
+        width: 40%;
+    }
+
+    .btn-booking {
+        margin-left: 0;
+    }
+
+    /*header end*/
+    /*banner start*/
+    .banner-content h1 {
+        font-size: 53.175px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .banner-content .btn-banner {
+        font-size: 16px;
+    }
+
+    /*banner end*/
+    /*recipes start*/
+    #recipes {
+        padding: 100px 0 120px;
+    }
+    .recipes-row {
+        height: auto;
+    }
+
+    .recipes-content-col {
+        position: static;
+    }
+
+    .recipes-content-col .custom-card {
+        position: static;
+        margin: 0;
+    }
+
+    /*recipes end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* global section start */
+    h1 {
+        font-size: 20px;
+        line-height: 1.125;
+    }
+
+    .common-header {
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    .common-header h2 {
+        font-size: 25.53px;
+        text-transform: uppercase;
+    }
+
+    /* global section end */
+    /* topbar start */
+    #topbar ul li {
+        font-size: 13.5px;
+    }
+
+    /* topbar end */
+    /*header start*/
+    .custom-navbar-brand img {
+        width: 60%;
+    }
+
+    .btn-booking {
+        margin-left: 0;
+    }
+
+    /*header end*/
+    /*banner start*/
+
+    .banner-content h1 {
+        font-size: 70.9px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content p {
+        font-size: 16.67px;
+        margin-bottom: 25px;
+    }
+
+    .banner-content .btn-banner {
+        font-size: 16px;
+    }
+
+    /*banner end*/
+    /*recipes start*/
+    #recipes {
+        padding: 100px 0 120px;
+    }
+    .recipes-row {
+        height: auto;
+    }
+
+    .recipes-content-col {
+        position: static;
+    }
+
+    .recipes-content-col .custom-card {
+        position: static;
+        margin: 0;
+    }
+
+    /*recipes end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* global section start */
+    h1 {
+        font-size: 25px;
+        line-height: 1.125;
+    }
+
+    .common-header {
+        color: #000;
+        margin-bottom: 25px;
+    }
+
+    .common-header h2 {
+        font-size: 31.92px;
+        text-transform: uppercase;
+    }
+
+    /* global section end */
+    /*header start*/
+    #header {
+        font-size: 16px;
+    }
+
+    .btn-booking {
+        color: #e7a331;
+        border: 1px solid #fff;
+        margin-left: 10px;
+        width: 130px;
+    }
+
+    /*header end*/
+    /*banner start*/
+
+    .banner-content h1 {
+        font-size: 88.625px;
+        margin-bottom: 35px;
+    }
+
+    .banner-content p {
+        font-size: 20.83px;
+        margin-bottom: 25px;
+    }
+
+    .banner-content .btn-banner {
+        font-size: 16.67px;
+    }
+
+    /*banner end*/
+    /*recipes start*/
+    #recipes {
+        padding: 100px 0 120px;
+    }
+    .recipes-row {
+        height: auto;
+    }
+
+    .recipes-content-col {
+        position: static;
+    }
+
+    .recipes-content-col .custom-card {
+        position: static;
+        margin: 0 80px;
+    }
+
+    /*recipes end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

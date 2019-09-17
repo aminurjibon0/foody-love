@@ -1,0 +1,266 @@
+/*global section start*/
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url(../fonts/url("../fonts/MyriadProSemiExtended.otf");
+}
+
+body {
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+h2 {
+    
+}
+h3 {
+    
+}
+.common-header {
+    color: #000;
+    margin-bottom: 25px;
+}
+.common-header h1 {
+    line-height: 1.05;
+}
+.common-header h2 {
+    font-size: 38.3px;
+    text-transform: uppercase;
+}
+p {
+    word-break: break-all;
+    word-spacing: -1px;
+}
+.btn-click {
+    background-color: #e7a331;
+    color: #fff !important;
+    border: 1px solid #e7a331;
+}
+.btn-click:hover {
+    background-color: transparent;
+    color: #e7a331 !important;
+}
+
+
+/*globar section end*/
+/*topbar start*/
+#topbar {
+    font-family: 'Times New Roman'sans-serif;
+    padding: 5px 0;
+}
+
+#topbar ul {
+    margin: 0;
+}
+
+#topbar ul i {
+    color: #E7A331;
+}
+
+.topbar-brand-col {
+    position: relative;
+}
+
+.brand-lg {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    z-index: 9999;
+}
+
+.brand-triangle-bg {
+    position: relative;
+    width: 340px;
+    z-index: -99999;
+}
+
+.brand-triangle-bg img {
+    width: 150px;
+    margin: 10px 90px 0;
+}
+
+.brand-triangle-bg::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-top: 170px solid #E7A331;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}
+
+.topbar-social-links {
+    text-align: right;
+}
+
+/*topbar end*/
+/*header start*/
+#header {
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.custom-navbar-brand img {
+    width: 70%;
+}
+
+.mainav li a {
+    color: #fff !important;
+}
+
+.mainav li a:hover {
+    color: #E7A331 !important;
+}
+
+.btn-booking {
+    color: #e7a331;
+    border: 1px solid #fff;
+    margin-left: 20px;
+}
+
+.btn-booking:hover {
+    background-color: #fff;
+    color: #e7a331;
+    box-shadow: 1px 3px 5px #8a871d;
+}
+
+/*header end*/
+/*banner start*/
+#banner {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-row {
+    min-height: 100vh;
+}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 106.35px;
+    margin-bottom: 40px;
+}
+
+.banner-content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.banner-content .btn-banner {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+}
+
+.banner-content .btn-banner:hover {
+    background-color: #fff;
+    color: #e7a331;
+}
+
+/*banner end*/
+/*about start*/
+#about {
+    padding: 100px 0 120px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+.bottom-right-img {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+}
+.bottom-right-img img {
+    width: 90%;
+}
+/*about end*/
+/*recipes start*/
+#recipes {
+    background: url(../images/special-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bottom-left-img {
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    z-index: 999;
+}
+.recipes-row {
+    min-height: 790px;
+}
+.recipes-content-col {
+    position: relative;
+}
+.recipes-content-col .custom-card {
+    position: absolute;
+    right: -50px;
+    z-index: 99;
+    top: -200px;
+}
+/*recipes end*/
+/*delightful start*/
+#delightful {
+    position: relative;
+    padding: 100px 0 120px;
+}
+.right-bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+}
+#delightful .single {
+    position: relative;
+    transition: all .3s;
+    overflow: hidden;
+}
+#delightful .single .overlay {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: all .5s;
+}
+
+#delightful .single .overlay-inner {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+#delightful .single h3 {
+    font-size: 21.99px;
+}
+#delightful .single p {
+    font-size: 41.34px;
+}
+#delightful .single button {
+    font-size: 15px;
+}
+#delightful .single:hover .overlay {
+    top: 0;
+    opacity: 1;
+}
+/*delightful end*/
